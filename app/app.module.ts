@@ -12,8 +12,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app.routing';
 import { ComponentsModule } from './components/components.module';
-import { SelectCoacComponent } from './pages/select-coac/select-coac.component';
-import { SelectNutrComponent } from './pages/select-nutr/select-nutr.component';
+import {NgbdModalContent, SelectCoacComponent} from './pages/select-coac/select-coac.component';
+import {NgbdModalContents,  SelectNutrComponent } from './pages/select-nutr/select-nutr.component';
+import { PayComponent } from './pages/pay/pay.component';
+import {NgbdModalContente, OneCourseComponent} from './pages/one-course/one-course.component';
 
 
 @NgModule({
@@ -31,7 +33,12 @@ import { SelectNutrComponent } from './pages/select-nutr/select-nutr.component';
     AdminLayoutComponent,
     AuthLayoutComponent,
     SelectCoacComponent,
-    SelectNutrComponent
+    SelectNutrComponent,
+    NgbdModalContent,
+    NgbdModalContents,
+    NgbdModalContente,
+    PayComponent,
+    OneCourseComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

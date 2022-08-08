@@ -26,7 +26,7 @@ export class DashboardComponent implements OnInit {
 
     this.datasets = [
       [0, 20, 10, 30, 15, 40, 20, 60, 60],
-      [0, 20, 5, 25, 10, 30, 15, 40, 40]
+      [0, 20, 5, 25, 30, 33, 35, 40, 48]
     ];
     this.data = this.datasets[0];
 
